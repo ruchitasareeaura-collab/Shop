@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-  <meta name="description" content="রুচিতা™ • Ruchita Saree Aura — Another name for taste is Ruchita.">
+  <meta name="description" content="রুচিতা™ • Ruchita Saree Aura">
   <meta name="theme-color" content="#fbf7f2">
   <title>রুচিতা™ • Ruchita Saree Aura</title>
   <script src="https://cdn.tailwindcss.com"></script>
@@ -19,61 +19,42 @@
     ::-webkit-scrollbar{width:4px}
     ::-webkit-scrollbar-track{background:#f3ede6}
     ::-webkit-scrollbar-thumb{background:#c4a88b;border-radius:8px}
-    .social-icon-circle{display:inline-flex;align-items:center;justify-content:center;width:2.5rem;height:2.5rem;border-radius:50%;background:rgba(255,255,255,0.75);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 2px 12px rgba(0,0,0,0.08),inset 0 1px 0 rgba(255,255,255,0.9);color:#5c4a3a;transition:all 0.25s;font-size:1.1rem}
-    .social-icon-circle:hover{background:#fff;transform:translateY(-3px);box-shadow:0 8px 20px rgba(0,0,0,0.15);color:#8b5e3c}
+    .social-icon-circle{display:inline-flex;align-items:center;justify-content:center;width:2.5rem;height:2.5rem;border-radius:50%;background:rgba(255,255,255,0.75);backdrop-filter:blur(10px);box-shadow:0 2px 12px rgba(0,0,0,0.08),inset 0 1px 0 rgba(255,255,255,0.9);color:#5c4a3a;transition:all 0.25s;font-size:1.1rem}
+    .social-icon-circle:hover{background:#fff;transform:translateY(-3px);color:#8b5e3c}
     .watermark-logo{position:absolute;bottom:10px;right:10px;width:36px;height:36px;border-radius:50%;opacity:.9;z-index:20;pointer-events:none;box-shadow:0 2px 8px rgba(0,0,0,.2);background:rgba(255,255,255,.85);padding:3px;object-fit:contain}
     @media(min-width:640px){.watermark-logo{width:44px;height:44px}}
     .category-pill{transition:all .25s;cursor:pointer;white-space:nowrap;padding:0.5rem 1.2rem;border-radius:2rem;border:1px solid #d6c8b8;background:#fff;color:#5c4a3a;font-weight:600;font-size:0.95rem}
-    .category-pill.active{background:#8b5e3c!important;color:#fff!important;border-color:#8b5e3c!important;box-shadow:0 6px 16px rgba(139,94,60,0.25)}
+    .category-pill.active{background:#8b5e3c!important;color:#fff!important;border-color:#8b5e3c!important}
     .footer-gradient{background:linear-gradient(180deg,#1a1510 0%,#2c2416 50%,#3d3220 100%)}
-    .stacked-card-group{position:relative;width:100%;aspect-ratio:4/5;cursor:pointer;perspective:1000px;margin-bottom:0.5rem}
+    .stacked-card-group{position:relative;width:100%;aspect-ratio:4/5;cursor:pointer;perspective:1000px}
     .stacked-card{position:absolute;inset:0;border-radius:1.5rem;overflow:hidden;transition:all 0.5s cubic-bezier(0.23,1,0.32,1);box-shadow:0 16px 32px -8px rgba(0,0,0,0.25);background:#fff}
     .stacked-card img{width:100%;height:100%;object-fit:cover}
     .stacked-card:nth-child(1){z-index:3;transform:rotate(0deg)}
     .stacked-card:nth-child(2){z-index:2;transform:rotate(-3deg) translateX(-5%) translateY(1.5%) scale(0.95);opacity:0.9}
     .stacked-card:nth-child(3){z-index:1;transform:rotate(4deg) translateX(7%) translateY(-1%) scale(0.91);opacity:0.8}
-    .stacked-card-group:hover .stacked-card:nth-child(1){transform:rotate(-1.5deg) scale(1.03);box-shadow:0 28px 48px -8px rgba(0,0,0,0.35)}
+    .stacked-card-group:hover .stacked-card:nth-child(1){transform:rotate(-1.5deg) scale(1.03)}
     .stacked-card-group:hover .stacked-card:nth-child(2){transform:rotate(-7deg) translateX(-16%) translateY(-3%) scale(0.92);opacity:1}
     .stacked-card-group:hover .stacked-card:nth-child(3){transform:rotate(9deg) translateX(20%) translateY(5%) scale(0.88);opacity:1}
     .product-card{animation:fadeInUp 0.5s ease forwards}
     @keyframes fadeInUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
-    .image-count-badge{position:absolute;top:10px;right:10px;z-index:15;background:rgba(0,0,0,0.5);backdrop-filter:blur(6px);color:#fff;font-size:0.65rem;font-weight:600;padding:3px 10px;border-radius:20px}
-    .jelly-btn{position:relative;overflow:hidden;border-radius:3rem;font-weight:600;box-shadow:0 8px 28px rgba(0,0,0,.15),inset 0 1px 0 rgba(255,255,255,.5);background:linear-gradient(180deg,rgba(255,255,255,.25) 0%,transparent 60%);transition:all .2s;display:inline-flex;align-items:center;justify-content:center;gap:0.4rem;font-size:0.95rem}
+    .image-count-badge{position:absolute;top:10px;right:10px;z-index:15;background:rgba(0,0,0,0.5);color:#fff;font-size:0.65rem;font-weight:600;padding:3px 10px;border-radius:20px}
+    .jelly-btn{position:relative;overflow:hidden;border-radius:3rem;font-weight:600;box-shadow:0 8px 28px rgba(0,0,0,.15),inset 0 1px 0 rgba(255,255,255,.5);transition:all .2s;display:inline-flex;align-items:center;justify-content:center;gap:0.4rem;font-size:0.95rem}
     .jelly-btn:active{transform:scale(.97)}
     .wa-btn{background:linear-gradient(135deg,#1fd86a,#0e9a4e)}
     .msg-btn{background:linear-gradient(135deg,#0aa5ff,#0066d1)}
     .hero-bg{background:linear-gradient(135deg,rgba(245,237,226,.95) 0%,rgba(232,213,192,.9) 50%,rgba(212,184,150,.85) 100%),url('https://images.unsplash.com/photo-1601924638867-3f3c9c3c8c8c?w=1200') center/cover no-repeat}
-    @media(max-width:640px){.stacked-card-group{aspect-ratio:3/4.5}.category-scroll{-webkit-overflow-scrolling:touch;scrollbar-width:none}.category-scroll::-webkit-scrollbar{display:none}}
+    @media(max-width:640px){.stacked-card-group{aspect-ratio:3/4.5}.category-scroll{overflow-x:auto;scrollbar-width:none}.category-scroll::-webkit-scrollbar{display:none}}
   </style>
 </head>
 <body class="antialiased">
-
   <script>
-    const products = [
-      { id:1, nameBn:"টাঙ্গাইল মনিপুরী", nameEn:"Tangail Monipuri", regPrice:1450, offerPrice:1350,
-        images: ["https://drive.google.com/thumbnail?id=1qDb3KZgOoUNUMNz9EGS7HJBxPkzv5HXB&sz=w600","https://drive.google.com/thumbnail?id=1MrzqzjMpRShJ00ciSGwrddd-gSUl5jnv&sz=w600","https://i.postimg.cc/sQMNgq13/2-20260612-012545-0001.jpg"],
-        stock:"Available",category:"Original Tangail Monipuri",descBn:"হাফ সিল্ক, চমৎকার নকশা।",descEn:"Half silk, exquisite design."},
-      { id:2, nameBn:"টাঙ্গাইল হাফ সিল্ক বুট্টি", nameEn:"Tangail Half Silk Buti", regPrice:1500, offerPrice:1400,
-        images: ["https://drive.google.com/thumbnail?id=1UaIpohYwlM3rHSo3JqBUN_yB1-bOI5mi&sz=w600"],
-        stock:"Available",category:"Tangail Half Silk Buti",descBn:"টাঙ্গাইল মিসড কটন শাড়ি।",descEn:"Tangail mixed cotton, buti design."},
-      { id:3, nameBn:"ঢাকাই জামদানি", nameEn:"Dhakai Jamdani", regPrice:2500, offerPrice:2400,
-        images: ["https://i.postimg.cc/nzczpxpw/1781018775037.png"],
-        stock:"Available",category:"Dhakai Jamdani",descBn:"১০০% হ্যান্ডলুম, কটন মিক্সড।",descEn:"100% handloom, cotton mixed."},
-      { id:4, nameBn:"হাফ সিল্ক জামদানি", nameEn:"Half Silk Jamdani", regPrice:1500, offerPrice:null,
-        images: ["https://i.postimg.cc/MGLK5xcj/1781249538781-2.jpg"],
-        stock:"Available",category:"Half Silk Jamdani",descBn:"হাফ সিল্ক, জামদানি মোটিফ।",descEn:"Half silk, Jamdani motif."}
-    ];
+    const products=[{id:1,nameBn:"টাঙ্গাইল মনিপুরী",nameEn:"Tangail Monipuri",regPrice:1450,offerPrice:1350,images:["https://drive.google.com/thumbnail?id=1qDb3KZgOoUNUMNz9EGS7HJBxPkzv5HXB&sz=w600","https://drive.google.com/thumbnail?id=1MrzqzjMpRShJ00ciSGwrddd-gSUl5jnv&sz=w600","https://i.postimg.cc/sQMNgq13/2-20260612-012545-0001.jpg"],stock:"Available",category:"Original Tangail Monipuri",descBn:"হাফ সিল্ক, চমৎকার নকশা।",descEn:"Half silk, exquisite design."},{id:2,nameBn:"টাঙ্গাইল হাফ সিল্ক বুট্টি",nameEn:"Tangail Half Silk Buti",regPrice:1500,offerPrice:1400,images:["https://drive.google.com/thumbnail?id=1UaIpohYwlM3rHSo3JqBUN_yB1-bOI5mi&sz=w600"],stock:"Available",category:"Tangail Half Silk Buti",descBn:"টাঙ্গাইল মিসড কটন শাড়ি।",descEn:"Tangail mixed cotton, buti design."},{id:3,nameBn:"ঢাকাই জামদানি",nameEn:"Dhakai Jamdani",regPrice:2500,offerPrice:2400,images:["https://i.postimg.cc/nzczpxpw/1781018775037.png"],stock:"Available",category:"Dhakai Jamdani",descBn:"১০০% হ্যান্ডলুম, কটন মিক্সড।",descEn:"100% handloom, cotton mixed."},{id:4,nameBn:"হাফ সিল্ক জামদানি",nameEn:"Half Silk Jamdani",regPrice:1500,offerPrice:null,images:["https://i.postimg.cc/MGLK5xcj/1781249538781-2.jpg"],stock:"Available",category:"Half Silk Jamdani",descBn:"হাফ সিল্ক, জামদানি মোটিফ।",descEn:"Half silk, Jamdani motif."}];
   </script>
-
   <header class="sticky top-0 z-50 bg-[#fbf7f2]/95 backdrop-blur-md border-b border-stone-200/70">
     <div class="max-w-7xl mx-auto px-4 flex items-center h-14">
-      <a href="#" class="flex items-center gap-2.5 no-underline">
-        <img src="https://drive.google.com/thumbnail?id=1Pas2l0FdhrhlXm9kPSp_pmsTp6YRImFt&sz=w100" alt="রুচিতা" class="w-9 h-9 rounded-full object-contain bg-white p-0.5 shadow-sm">
-        <div><span class="text-lg font-bold text-[#8b5e3c] font-bn">রুচিতা™</span><span class="text-[10px] font-en text-stone-500 block">Ruchita Saree Aura</span></div>
-      </a>
+      <a href="#" class="flex items-center gap-2.5 no-underline"><img src="https://drive.google.com/thumbnail?id=1Pas2l0FdhrhlXm9kPSp_pmsTp6YRImFt&sz=w100" alt="রুচিতা" class="w-9 h-9 rounded-full object-contain bg-white p-0.5 shadow-sm"><div><span class="text-lg font-bold text-[#8b5e3c] font-bn">রুচিতা™</span><span class="text-[10px] font-en text-stone-500 block">Ruchita Saree Aura</span></div></a>
     </div>
   </header>
-
   <section class="hero-bg pt-8 pb-6 sm:pt-10 sm:pb-8 text-center px-4 relative">
     <div class="absolute inset-0 bg-black/5"></div>
     <div class="relative z-10 max-w-2xl mx-auto">
@@ -83,105 +64,38 @@
       <div class="w-12 h-0.5 bg-[#8b5e3c] mx-auto mt-3"></div>
       <p class="text-base sm:text-xl text-stone-700 mt-3 italic font-bn">"রুচিশীলতার আরেক নাম"</p>
       <p class="text-xs font-serif text-stone-500 mt-1 italic">"Another name for taste is Ruchita"</p>
-      <div class="mt-5 flex justify-center gap-3 flex-wrap">
-        <a href="#collection" class="jelly-btn bg-[#8b5e3c] text-white px-6 py-2.5 text-sm"><i class="fas fa-gem"></i> সংগ্রহ</a>
-        <a href="#" onclick="openWA('general')" class="jelly-btn wa-btn text-white px-6 py-2.5 text-sm"><i class="fab fa-whatsapp text-lg"></i> অর্ডার</a>
-      </div>
+      <div class="mt-5 flex justify-center gap-3"><a href="#collection" class="jelly-btn bg-[#8b5e3c] text-white px-6 py-2.5 text-sm"><i class="fas fa-gem"></i> সংগ্রহ</a><a href="#" onclick="openWA('general')" class="jelly-btn wa-btn text-white px-6 py-2.5 text-sm"><i class="fab fa-whatsapp text-lg"></i> অর্ডার</a></div>
     </div>
   </section>
-
   <section class="sticky top-14 z-40 bg-[#fbf7f2]/95 backdrop-blur-sm border-b py-2.5">
     <div class="max-w-7xl mx-auto px-4 flex gap-2 overflow-x-auto category-scroll">
-      <button class="category-pill active" data-category="all">সব</button>
-      <button class="category-pill" data-category="Original Tangail Monipuri">টাঙ্গাইল মনিপুরী</button>
-      <button class="category-pill" data-category="Tangail Half Silk Buti">হাফ সিল্ক বুট্টি</button>
-      <button class="category-pill" data-category="Dhakai Jamdani">ঢাকাই জামদানি</button>
-      <button class="category-pill" data-category="Half Silk Jamdani">হাফ সিল্ক জামদানি</button>
+      <button class="category-pill active" data-category="all">সব</button><button class="category-pill" data-category="Original Tangail Monipuri">টাঙ্গাইল মনিপুরী</button><button class="category-pill" data-category="Tangail Half Silk Buti">হাফ সিল্ক বুট্টি</button><button class="category-pill" data-category="Dhakai Jamdani">ঢাকাই জামদানি</button><button class="category-pill" data-category="Half Silk Jamdani">হাফ সিল্ক জামদানি</button>
     </div>
   </section>
-
   <section id="collection" class="max-w-7xl mx-auto px-4 py-8 sm:py-10">
     <h2 class="text-2xl sm:text-3xl font-bold text-center font-bn mb-1">আমাদের সংগ্রহ</h2>
     <p class="text-xs text-center text-stone-400 font-serif tracking-[0.2em] uppercase mb-6">Our Collection</p>
     <div id="productShowcase" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
     <div id="noProducts" class="hidden text-center py-16 text-stone-400">কোনো পণ্য নেই</div>
-    <div id="lightbox" class="fixed inset-0 z-[100] bg-black/95 hidden items-center justify-center p-4" onclick="closeLightbox()">
-      <button class="absolute top-4 right-4 text-white text-3xl">&times;</button>
-      <div id="lightboxContent" class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl" onclick="event.stopPropagation()"></div>
-    </div>
   </section>
-
-  <section class="bg-[#f7f1e9] py-8 px-4 text-center">
-    <h2 class="text-xl font-bold font-bn mb-2">আমাদের সম্পর্কে</h2>
-    <p class="text-xs text-stone-500 font-serif mb-3">About Us</p>
-    <p class="text-sm text-stone-700 max-w-2xl mx-auto font-bn">রুচিতা শাড়ি অরা বাংলার নিরবধি ঐতিহ্য ও রুচিশীলতাকে উদযাপন করে।</p>
-  </section>
-
+  <section class="bg-[#f7f1e9] py-8 px-4 text-center"><h2 class="text-xl font-bold font-bn mb-2">আমাদের সম্পর্কে</h2><p class="text-xs text-stone-500 font-serif mb-3">About Us</p><p class="text-sm text-stone-700 max-w-2xl mx-auto font-bn">রুচিতা শাড়ি অরা বাংলার নিরবধি ঐতিহ্য ও রুচিশীলতাকে উদযাপন করে।</p></section>
   <footer class="footer-gradient text-stone-200 py-8 px-4 sm:px-8">
     <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 mb-6">
-      <div>
-        <h4 class="text-amber-300 font-bold text-sm mb-2 font-bn">📞 যোগাযোগ</h4>
-        <ul class="space-y-1.5 text-xs text-stone-300">
-          <li><i class="fab fa-whatsapp mr-1.5"></i> +880 1885-092595</li>
-          <li><i class="fas fa-envelope mr-1.5"></i> ruchitasaree0622@gmail.com</li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="text-amber-300 font-bold text-sm mb-2 font-bn">📍 ঠিকানা</h4>
-        <p class="text-xs text-stone-300 leading-relaxed">
-          রুচিতা™ Ruchita Saree Aura<br>
-          Shekhertek 10, Adabar<br>
-          Dhaka 1207, Bangladesh
-        </p>
-        <div class="flex gap-2.5 mt-3">
-          <a href="https://www.facebook.com/share/1ZyJMqjUBj/" target="_blank" class="social-icon-circle"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.facebook.com/share/g/18VQsJhz7M/" target="_blank" class="social-icon-circle"><span class="font-en font-bold text-xs">G</span></a>
-          <a href="https://www.instagram.com/ruchitasareeaura?igsh=MTByM2w5OW1hNWZqNg==" target="_blank" class="social-icon-circle"><i class="fab fa-instagram"></i></a>
-          <a href="https://surl.li/ljtecz" target="_blank" class="social-icon-circle"><i class="fab fa-whatsapp"></i></a>
-          <a href="https://x.com/RuchitaSaree01" target="_blank" class="social-icon-circle"><i class="fab fa-x-twitter"></i></a>
-        </div>
-      </div>
-      <div>
-        <h4 class="text-amber-300 font-bold text-sm mb-2 font-bn">🚚 শিপিং ও রিটার্ন</h4>
-        <ul class="space-y-1.5 text-xs text-stone-300">
-          <li>✓ ঢাকার মধ্যে: ৳80</li>
-          <li>✓ ঢাকার বাইরে: ৳120</li>
-          <li>✓ 7-Day Return & Exchange</li>
-        </ul>
-      </div>
+      <div><h4 class="text-amber-300 font-bold text-sm mb-2 font-bn">📞 যোগাযোগ</h4><ul class="space-y-1.5 text-xs text-stone-300"><li><i class="fab fa-whatsapp mr-1.5"></i> +880 1885-092595</li><li><i class="fas fa-envelope mr-1.5"></i> ruchitasaree0622@gmail.com</li></ul></div>
+      <div><h4 class="text-amber-300 font-bold text-sm mb-2 font-bn">📍 ঠিকানা</h4><p class="text-xs text-stone-300">রুচিতা™ Ruchita Saree Aura<br>Shekhertek 10, Adabar<br>Dhaka 1207, Bangladesh</p><div class="flex gap-2.5 mt-3"><a href="https://www.facebook.com/share/1ZyJMqjUBj/" target="_blank" class="social-icon-circle"><i class="fab fa-facebook-f"></i></a><a href="https://www.facebook.com/share/g/18VQsJhz7M/" target="_blank" class="social-icon-circle"><span class="font-en font-bold text-xs">G</span></a><a href="https://www.instagram.com/ruchitasareeaura?igsh=MTByM2w5OW1hNWZqNg==" target="_blank" class="social-icon-circle"><i class="fab fa-instagram"></i></a><a href="https://surl.li/ljtecz" target="_blank" class="social-icon-circle"><i class="fab fa-whatsapp"></i></a><a href="https://x.com/RuchitaSaree01" target="_blank" class="social-icon-circle"><i class="fab fa-x-twitter"></i></a></div></div>
+      <div><h4 class="text-amber-300 font-bold text-sm mb-2 font-bn">🚚 শিপিং ও রিটার্ন</h4><ul class="space-y-1.5 text-xs text-stone-300"><li>✓ ঢাকার মধ্যে: ৳80</li><li>✓ ঢাকার বাইরে: ৳120</li><li>✓ 7-Day Return & Exchange</li></ul></div>
     </div>
-    <div class="text-center border-t border-stone-700/50 pt-4">
-      <p class="text-[10px] text-stone-500 font-serif">© 2026 Ruchita Saree Aura. All Rights Reserved.</p>
-    </div>
+    <div class="text-center border-t border-stone-700/50 pt-4"><p class="text-[10px] text-stone-500 font-serif">© 2026 Ruchita Saree Aura. All Rights Reserved.</p></div>
   </footer>
-
   <script>
     const pg=document.getElementById('productShowcase'),np=document.getElementById('noProducts');
-    function renderShowcase(f='all'){
-      const fd=f==='all'?products:products.filter(p=>p.category===f);
-      pg.innerHTML='';
-      if(!fd.length){np.classList.remove('hidden');pg.classList.add('hidden');return}
-      np.classList.add('hidden');pg.classList.remove('hidden');
-      fd.forEach(p=>{
-        const imgs=p.images||[p.image];
-        const d=[]; for(let i=0;i<3;i++) d.push(imgs[i%imgs.length]);
-        const c=document.createElement('div');
-        c.className='product-card bg-white rounded-3xl overflow-hidden border shadow-xl flex flex-col';
-        c.innerHTML=`<div class="stacked-card-group relative" onclick="openLightbox(${JSON.stringify(d).replace(/"/g,'&quot;')})"><div class="stacked-card"><img src="${d[0]}" loading="lazy"></div><div class="stacked-card"><img src="${d[1]}" loading="lazy"></div><div class="stacked-card"><img src="${d[2]}" loading="lazy"></div><div class="absolute top-3 left-3 z-10">${p.stock==='Sold Out'?'<span class="bg-red-100 text-red-700 text-xs px-3 py-1 rounded-full font-semibold">Sold Out</span>':'<span class="bg-emerald-100 text-emerald-700 text-xs px-3 py-1 rounded-full font-semibold">Available</span>'}</div><div class="image-count-badge"><i class="fas fa-images"></i> ৩টি</div><img src="https://drive.google.com/thumbnail?id=1Pas2l0FdhrhlXm9kPSp_pmsTp6YRImFt&sz=w100" class="watermark-logo" alt="রুচিতা"></div>
-        <div class="p-4 flex flex-col flex-grow"><h3 class="text-lg font-bold text-stone-800 font-bn">${p.nameBn}</h3><p class="text-xs text-stone-400 font-serif">${p.nameEn}</p><p class="text-sm text-stone-600 mt-2 font-bn">${p.descBn}</p><div class="mt-auto pt-4">${p.offerPrice?`<span class="text-xl font-bold text-[#8b5e3c]">৳ ${p.offerPrice.toLocaleString()}</span> <span class="text-sm line-through text-stone-400">৳ ${p.regPrice.toLocaleString()}</span>`:`<span class="text-xl font-bold text-[#8b5e3c]">৳ ${p.regPrice.toLocaleString()}</span>`}</div><div class="flex gap-2 mt-4"><a href="#" onclick="event.preventDefault();openWA('${p.nameBn}')" class="jelly-btn wa-btn text-white py-3 px-4 text-sm font-semibold flex-1"><i class="fab fa-whatsapp"></i> অর্ডার</a><a href="https://m.me/ruchitasareeaura" target="_blank" class="jelly-btn msg-btn text-white py-3 px-4 text-sm font-semibold flex-1"><i class="fab fa-facebook-messenger"></i> Messenger</a></div></div>`;
-        pg.appendChild(c);
-      });
-    }
-    window.openLightbox=function(imgs){
-      const lb=document.getElementById('lightbox'),ct=document.getElementById('lightboxContent');
-      let arr=typeof imgs==='string'?JSON.parse(imgs):imgs;
-      ct.innerHTML=arr.map((i,idx)=>`<div class="rounded-2xl overflow-hidden shadow-2xl"><img src="${i}" class="w-full" loading="lazy"><p class="text-white/60 text-xs text-center mt-1">${idx+1}/${arr.length}</p></div>`).join('');
-      lb.classList.remove('hidden');lb.classList.add('flex');document.body.style.overflow='hidden';
-    }
-    window.closeLightbox=function(){const lb=document.getElementById('lightbox');lb.classList.add('hidden');lb.classList.remove('flex');document.body.style.overflow=''}
-    window.openWA=function(name){window.open(`https://wa.me/8801885092595?text=${encodeURIComponent('আসসালামু আলাইকুম,\n\nআমি আগ্রহী:\nপণ্য: '+name+'\n\nদয়া করে জানাবেন:\n• Available colors\n• Current price\n• Delivery details\n\nধন্যবাদ।')}`,'_blank')}
+    function renderShowcase(f='all'){const fd=f==='all'?products:products.filter(p=>p.category===f);pg.innerHTML='';if(!fd.length){np.classList.remove('hidden');pg.classList.add('hidden');return}np.classList.add('hidden');pg.classList.remove('hidden');fd.forEach(p=>{const imgs=p.images||[p.image];const d=[];for(let i=0;i<3;i++)d.push(imgs[i%imgs.length]);const c=document.createElement('div');c.className='product-card bg-white rounded-3xl overflow-hidden border shadow-xl flex flex-col';c.innerHTML=`<div class="stacked-card-group relative" onclick="openLightbox(${JSON.stringify(d).replace(/"/g,'&quot;')})"><div class="stacked-card"><img src="${d[0]}" loading="lazy"></div><div class="stacked-card"><img src="${d[1]}" loading="lazy"></div><div class="stacked-card"><img src="${d[2]}" loading="lazy"></div><div class="absolute top-3 left-3 z-10">${p.stock==='Sold Out'?'<span class="bg-red-100 text-red-700 text-xs px-3 py-1 rounded-full">Sold Out</span>':'<span class="bg-emerald-100 text-emerald-700 text-xs px-3 py-1 rounded-full">Available</span>'}</div><div class="image-count-badge"><i class="fas fa-images"></i> ৩টি</div><img src="https://drive.google.com/thumbnail?id=1Pas2l0FdhrhlXm9kPSp_pmsTp6YRImFt&sz=w100" class="watermark-logo" alt="রুচিতা"></div><div class="p-4 flex flex-col flex-grow"><h3 class="text-lg font-bold text-stone-800 font-bn">${p.nameBn}</h3><p class="text-xs text-stone-400 font-serif">${p.nameEn}</p><p class="text-sm text-stone-600 mt-2 font-bn">${p.descBn}</p><div class="mt-auto pt-4">${p.offerPrice?`<span class="text-xl font-bold text-[#8b5e3c]">৳ ${p.offerPrice.toLocaleString()}</span> <span class="text-sm line-through text-stone-400">৳ ${p.regPrice.toLocaleString()}</span>`:`<span class="text-xl font-bold text-[#8b5e3c]">৳ ${p.regPrice.toLocaleString()}</span>`}</div><div class="flex gap-2 mt-4"><a href="#" onclick="event.preventDefault();openWA('${p.nameBn}')" class="jelly-btn wa-btn text-white py-3 px-4 text-sm font-semibold flex-1"><i class="fab fa-whatsapp"></i> অর্ডার</a><a href="https://m.me/ruchitasareeaura" target="_blank" class="jelly-btn msg-btn text-white py-3 px-4 text-sm font-semibold flex-1"><i class="fab fa-facebook-messenger"></i> Messenger</a></div></div>`;pg.appendChild(c)})}
+    function openLightbox(imgs){const lb=document.getElementById('lightbox'),ct=document.getElementById('lightboxContent');if(!lb)return;let arr=typeof imgs==='string'?JSON.parse(imgs):imgs;ct.innerHTML=arr.map((i,idx)=>`<div class="rounded-2xl overflow-hidden shadow-2xl"><img src="${i}" class="w-full" loading="lazy"><p class="text-white/60 text-xs text-center mt-1">${idx+1}/${arr.length}</p></div>`).join('');lb.classList.remove('hidden');lb.classList.add('flex');document.body.style.overflow='hidden'}
+    function closeLightbox(){const lb=document.getElementById('lightbox');if(!lb)return;lb.classList.add('hidden');lb.classList.remove('flex');document.body.style.overflow=''}
+    function openWA(n){window.open(`https://wa.me/8801885092595?text=${encodeURIComponent('আসসালামু আলাইকুম,\n\nপণ্য: '+n+'\n\nদয়া করে জানাবেন:\n• Available colors\n• Current price\n• Delivery details\n\nধন্যবাদ।')}`,'_blank')}
     document.querySelectorAll('.category-pill').forEach(b=>b.addEventListener('click',function(){document.querySelectorAll('.category-pill').forEach(x=>x.classList.remove('active'));this.classList.add('active');renderShowcase(this.dataset.category)}));
     renderShowcase('all');
   </script>
+  <div id="lightbox" class="fixed inset-0 z-[100] bg-black/95 hidden items-center justify-center p-4" onclick="closeLightbox()"><button class="absolute top-4 right-4 text-white text-3xl">&times;</button><div id="lightboxContent" class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl" onclick="event.stopPropagation()"></div></div>
 </body>
 </html>
